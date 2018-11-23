@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 3.489 s <<< FAILURE! - in com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT
-test01_ConnexionDeconnexionPremierJoueur(com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT)  Time elapsed: 2.498 s  <<< ERROR!
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 9.626 s <<< FAILURE! - in com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT
+test01_ConnexionDeconnexionPremierJoueur(com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT)  Time elapsed: 4.594 s  <<< ERROR!
 org.awaitility.core.ConditionTimeoutException: Condition with com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT was not fulfilled within 2 seconds.
 	at com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT.test01_ConnexionDeconnexionPremierJoueur(TestsBoutEnBoutIT.java:37)
 
-test02_AffichagePlateauVidePremierJoueurEtAttenteDeuxiemeJoueur(com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT)  Time elapsed: 0.261 s  <<< FAILURE!
+test02_AffichagePlateauVidePremierJoueurEtAttenteDeuxiemeJoueur(com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT)  Time elapsed: 2.285 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<A[ vous de jouer]> but was:<A[ucune partie en cours]>
 	at com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT.test02_AffichagePlateauVidePremierJoueurEtAttenteDeuxiemeJoueur(TestsBoutEnBoutIT.java:60)
 
-test03_BoutonAjoutColonneInaccessibleLorsqueColonnePleine(com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT)  Time elapsed: 0.73 s  <<< ERROR!
+test03_BoutonAjoutColonneInaccessibleLorsqueColonnePleine(com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT)  Time elapsed: 2.746 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.orsys.tdd.puissance4.boutenbout.TestsBoutEnBoutIT.test03_BoutonAjoutColonneInaccessibleLorsqueColonnePleine(TestsBoutEnBoutIT.java:80)
 
