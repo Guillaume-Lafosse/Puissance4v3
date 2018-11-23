@@ -26,7 +26,7 @@ public class MonGestionnaireTexteSocket extends TextWebSocketHandler {
     	
     	if ( session == sessionDeuxiemeJoueur ) {
     		sessionDeuxiemeJoueur = null;
-    	}
+    	}//test
     	
     }
  
